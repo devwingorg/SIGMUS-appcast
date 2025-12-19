@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Atualizações SIGMUS</title>
+
+    <!-- macOS -->
+    <item>
+      <title>Versão 1.0.0</title>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:os>macos</sparkle:os>
+
+      <enclosure
+        url="https://github.com/SEU_USUARIO/meu-app/releases/download/v1.0.0/MeuApp-1.0.0-macos.zip"
+        sparkle:edSignature="SIGNATURE_MAC"
+        type="application/octet-stream" />
+    </item>
+
+    <!-- Windows -->
+    <item>
+      <title>Versão 1.0.0</title>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:os>windows</sparkle:os>
+
+      <enclosure
+        url="https://github.com/SEU_USUARIO/meu-app/releases/download/v1.0.0/MeuApp-1.0.0-windows.exe"
+        sparkle:dsaSignature="SIGNATURE_WIN"
+        type="application/octet-stream" />
+    </item>
+
+  </channel>
+</rss>
