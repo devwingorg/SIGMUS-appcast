@@ -1,34 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Atualizações SIGMUS</title>
-
-    <!-- macOS -->
-    <item>
-      <title>Versão 1.0.0</title>
-      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-      <sparkle:version>1</sparkle:version>
-      <sparkle:os>macos</sparkle:os>
-
-      <enclosure
-        url="https://github.com/SEU_USUARIO/meu-app/releases/download/v1.0.0/MeuApp-1.0.0-macos.zip"
-        sparkle:edSignature="SIGNATURE_MAC"
-        type="application/octet-stream" />
-    </item>
-
-    <!-- Windows -->
-    <item>
-      <title>Versão 1.0.0</title>
-      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-      <sparkle:version>1</sparkle:version>
-      <sparkle:os>windows</sparkle:os>
-
-      <enclosure
-        url="https://github.com/SEU_USUARIO/meu-app/releases/download/v1.0.0/MeuApp-1.0.0-windows.exe"
-        sparkle:dsaSignature="SIGNATURE_WIN"
-        type="application/octet-stream" />
-    </item>
-
-  </channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Atualização SIGMUS</title>
+        <description>Updates recentes SIGMUS</description>
+        <language>pt-br</language>
+        <item>
+            <title>Version 1.0.0</title>
+            <!-- For the macOS item, it is recommended to add 'sparkle:version' and 'sparkle:shortVersionString' to the item node, rather than as part of the enclosure. -->
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <enclosure url="https://github.com/devwingorg/SIGMUS-futter-app/releases/download/1.0.0/sigmus-1.0.0+1-macos.zip"
+                       sparkle:edSignature="WstTihTaaCvDcObkdhPIS2RuZaK6F7UpxjoO7uXADWMlni6u6p36A2KFiaf5KkITzMC0PMlptWL5EqJNuc6jBg=="
+                       sparkle:os="macos"
+                       length="21402973"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.0.0</title>
+            <enclosure url="1.1.0+2/auto_updater_example-1.1.0+2-windows.exe"
+                       sparkle:dsaSignature="MEUCIQCVbVzVID7H3aUzAY5znpi+ySZKznkukV8whlMFzKh66AIgREUGOmvavlcg6hwAwkb2o4IqVE/D56ipIBshIqCH8rk="
+                       sparkle:version="1.1.0+2"
+                       sparkle:os="windows"
+                       length="0"
+                       type="application/octet-stream" />
+        </item>
+    </channel>
 </rss>
