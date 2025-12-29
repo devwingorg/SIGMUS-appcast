@@ -5,7 +5,7 @@
         <description>Updates recentes SIGMUS</description>
         <language>pt-br</language>
         <item>
-            <title>Version 2.0.1</title>
+            <title>Version 2.0.0</title>
             <!-- For the macOS item, it is recommended to add 'sparkle:version' and 'sparkle:shortVersionString' to the item node, rather than as part of the enclosure. -->
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
@@ -16,7 +16,7 @@
                        type="application/octet-stream" />
         </item>
         <item>
-            <title>Version 2.0.1</title>
+            <title>Version 2.0.0</title>
             <enclosure url="https://github.com/devwingorg/SIGMUS-futter-app/releases/download/1.0.0/sigmus-1.0.0+1-windows-setup.exe"
                        sparkle:dsaSignature="MD0CHQDgCZwQ3ERUGnHHbTwkjIbebXkBWcSRlUIwbqNLAhxt31g4Yog2z0XsXHzCpbzDsE1c6OJcBl3ofgVb"
                        sparkle:version="2.0.1+3"
