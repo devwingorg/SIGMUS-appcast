@@ -9,7 +9,7 @@
             <!-- For the macOS item, it is recommended to add 'sparkle:version' and 'sparkle:shortVersionString' to the item node, rather than as part of the enclosure. -->
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
-            <enclosure url="https://github.com/devwingorg/SIGMUS-appcast/releases/download/2.0.1/sigmus-1.0.0+1-macos.zip"
+            <enclosure url="https://github.com/devwingorg/SIGMUS-appcast/releases/download/2.0.1/sigmus-1.0.0+1-macos.dmg"
                        sparkle:edSignature="WstTihTaaCvDcObkdhPIS2RuZaK6F7UpxjoO7uXADWMlni6u6p36A2KFiaf5KkITzMC0PMlptWL5EqJNuc6jBg=="
                        sparkle:os="macos"
                        length="21402973"
