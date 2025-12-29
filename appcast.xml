@@ -17,7 +17,7 @@
         </item>
         <item>
             <title>Version 2.0.0</title>
-            <enclosure url="https://github.com/devwingorg/SIGMUS-futter-app/releases/download/1.0.0/sigmus-1.0.0+1-windows-setup.exe"
+            <enclosure url="https://github.com/devwingorg/SIGMUS-appcast/releases/download/1.0.0%2B1/sigmus-1.0.0.1-windows-setup.exe"
                        sparkle:dsaSignature="MD0CHQDgCZwQ3ERUGnHHbTwkjIbebXkBWcSRlUIwbqNLAhxt31g4Yog2z0XsXHzCpbzDsE1c6OJcBl3ofgVb"
                        sparkle:version="2.0.0+1"
                        sparkle:os="windows"
