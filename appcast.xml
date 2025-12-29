@@ -17,9 +17,9 @@
         </item>
         <item>
             <title>Version 1.0.0</title>
-            <enclosure url="1.1.0+2/auto_updater_example-1.1.0+2-windows.exe"
-                       sparkle:dsaSignature="MEUCIQCVbVzVID7H3aUzAY5znpi+ySZKznkukV8whlMFzKh66AIgREUGOmvavlcg6hwAwkb2o4IqVE/D56ipIBshIqCH8rk="
-                       sparkle:version="1.1.0+2"
+            <enclosure url="https://github.com/devwingorg/SIGMUS-futter-app/releases/download/1.0.0/sigmus-1.0.0+1-windows-setup.exe"
+                       sparkle:dsaSignature="MD0CHQDgCZwQ3ERUGnHHbTwkjIbebXkBWcSRlUIwbqNLAhxt31g4Yog2z0XsXHzCpbzDsE1c6OJcBl3ofgVb"
+                       sparkle:version="1.0.0+1"
                        sparkle:os="windows"
                        length="0"
                        type="application/octet-stream" />
